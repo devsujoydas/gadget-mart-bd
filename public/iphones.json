@@ -1,0 +1,577 @@
+[
+    {
+      "id": "iphone_11_base",
+      "model": "iPhone 11",
+      "variant": "Base",
+      "release_date": "2019-09-20",
+      "screen_size": "6.1 inches",
+      "processor": "A13 Bionic chip",
+      "ram": "4GB",
+      "storage_options": ["64GB", "128GB", "256GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "3110 mAh",
+      "price": "$699",
+      "rating": 4.5,
+      "img": [
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-11-Yellow-4597.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-11-White-6618.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-11-Purple-8837.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-11-Green-4324.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-11-Black-5949.jpg"
+      ]
+    },
+    {
+      "id": "iphone_11_pro",
+      "model": "iPhone 11",
+      "variant": "Pro",
+      "release_date": "2019-09-20",
+      "screen_size": "5.8 inches",
+      "processor": "A13 Bionic chip",
+      "ram": "4GB",
+      "storage_options": ["64GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "3046 mAh",
+      "price": "$999",
+      "rating": 4.6,
+      "img": [
+        "https://example.com/images/iphone_11_pro_front.png",
+        "https://example.com/images/iphone_11_pro_back.png",
+        "https://example.com/images/iphone_11_pro_side.png",
+        "https://example.com/images/iphone_11_pro_screen.png",
+        "https://example.com/images/iphone_11_pro_bottom.png",
+        "https://example.com/images/iphone_11_pro_top.png"
+      ]
+    },
+    {
+      "id": "iphone_11_pro_max",
+      "model": "iPhone 11",
+      "variant": "Pro Max",
+      "release_date": "2019-09-20",
+      "screen_size": "6.5 inches",
+      "processor": "A13 Bionic chip",
+      "ram": "4GB",
+      "storage_options": ["64GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "3969 mAh",
+      "price": "$1099",
+      "rating": 4.7,
+      "img": [
+        "https://example.com/images/iphone_11_pro_max_front.png",
+        "https://mobilemaya.net/wp-content/uploads/2024/05/iphone-11-pro-max-500x500.webp",
+        "https://computerimporter.com/image/cache/catalog/products/Apple/iphone-11-pro-max-400x400.jpg",
+        "https://example.com/images/iphone_11_pro_max_screen.png",
+        "https://example.com/images/iphone_11_pro_max_bottom.png",
+        "https://example.com/images/iphone_11_pro_max_top.png"
+      ]
+    },
+    {
+      "id": "iphone_12_base",
+      "model": "iPhone 12",
+      "variant": "Base",
+      "release_date": "2020-10-23",
+      "screen_size": "6.1 inches",
+      "processor": "A14 Bionic chip",
+      "ram": "4GB",
+      "storage_options": ["64GB", "128GB", "256GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "2815 mAh",
+      "price": "$799",
+      "rating": 4.6,
+      "img": [
+        "https://example.com/images/iphone_12_base_front.png",
+        "https://example.com/images/iphone_12_base_back.png",
+        "https://example.com/images/iphone_12_base_side.png",
+        "https://example.com/images/iphone_12_base_screen.png",
+        "https://example.com/images/iphone_12_base_bottom.png",
+        "https://example.com/images/iphone_12_base_top.png"
+      ]
+    },
+    {
+      "id": "iphone_12_pro",
+      "model": "iPhone 12",
+      "variant": "Pro",
+      "release_date": "2020-10-23",
+      "screen_size": "6.1 inches",
+      "processor": "A14 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "2815 mAh",
+      "price": "$999",
+      "rating": 4.7,
+      "img": [
+        "https://example.com/images/iphone_12_pro_front.png",
+        "https://example.com/images/iphone_12_pro_back.png",
+        "https://example.com/images/iphone_12_pro_side.png",
+        "https://example.com/images/iphone_12_pro_screen.png",
+        "https://example.com/images/iphone_12_pro_bottom.png",
+        "https://example.com/images/iphone_12_pro_top.png"
+      ]
+    },
+    {
+      "id": "iphone_12_pro_max",
+      "model": "iPhone 12",
+      "variant": "Pro Max",
+      "release_date": "2020-10-23",
+      "screen_size": "6.7 inches",
+      "processor": "A14 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "3687 mAh",
+      "price": "$1099",
+      "rating": 4.8,
+      "img": [
+        "https://example.com/images/iphone_12_pro_max_front.png",
+        "https://example.com/images/iphone_12_pro_max_back.png",
+        "https://example.com/images/iphone_12_pro_max_side.png",
+        "https://example.com/images/iphone_12_pro_max_screen.png",
+        "https://example.com/images/iphone_12_pro_max_bottom.png",
+        "https://example.com/images/iphone_12_pro_max_top.png"
+      ]
+    },
+    {
+      "id": "iphone_12_mini",
+      "model": "iPhone 12",
+      "variant": "Mini",
+      "release_date": "2020-10-23",
+      "screen_size": "5.4 inches",
+      "processor": "A14 Bionic chip",
+      "ram": "4GB",
+      "storage_options": ["64GB", "128GB", "256GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "2227 mAh",
+      "price": "$699",
+      "rating": 4.5,
+      "img": [
+        "https://example.com/images/iphone_12_mini_front.png",
+        "https://example.com/images/iphone_12_mini_back.png",
+        "https://example.com/images/iphone_12_mini_side.png",
+        "https://example.com/images/iphone_12_mini_screen.png",
+        "https://example.com/images/iphone_12_mini_bottom.png",
+        "https://example.com/images/iphone_12_mini_top.png"
+      ]
+    },
+    {
+      "id": "iphone_13_base",
+      "model": "iPhone 13",
+      "variant": "Base",
+      "release_date": "2021-09-24",
+      "screen_size": "6.1 inches",
+      "processor": "A15 Bionic chip",
+      "ram": "4GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "3227 mAh",
+      "price": "$799",
+      "rating": 4.6,
+      "img": [
+        "https://example.com/images/iphone_13_base_front.png",
+        "https://example.com/images/iphone_13_base_back.png",
+        "https://example.com/images/iphone_13_base_side.png",
+        "https://example.com/images/iphone_13_base_screen.png",
+        "https://example.com/images/iphone_13_base_bottom.png",
+        "https://example.com/images/iphone_13_base_top.png"
+      ]
+    },
+    {
+      "id": "iphone_13_pro",
+      "model": "iPhone 13",
+      "variant": "Pro",
+      "release_date": "2021-09-24",
+      "screen_size": "6.1 inches",
+      "processor": "A15 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB", "1TB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "3095 mAh",
+      "price": "$999",
+      "rating": 4.7,
+      "img": [
+        "https://example.com/images/iphone_13_pro_front.png",
+        "https://example.com/images/iphone_13_pro_back.png",
+        "https://example.com/images/iphone_13_pro_side.png",
+        "https://example.com/images/iphone_13_pro_screen.png",
+        "https://example.com/images/iphone_13_pro_bottom.png",
+        "https://example.com/images/iphone_13_pro_top.png"
+      ]
+    },
+    {
+      "id": "iphone_13_pro_max",
+      "model": "iPhone 13",
+      "variant": "Pro Max",
+      "release_date": "2021-09-24",
+      "screen_size": "6.7 inches",
+      "processor": "A15 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB", "1TB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "4352 mAh",
+      "price": "$1099",
+      "rating": 4.8,
+      "img": [
+        "https://example.com/images/iphone_13_pro_max_front.png",
+        "https://example.com/images/iphone_13_pro_max_back.png",
+        "https://example.com/images/iphone_13_pro_max_side.png",
+        "https://example.com/images/iphone_13_pro_max_screen.png",
+        "https://example.com/images/iphone_13_pro_max_bottom.png",
+        "https://example.com/images/iphone_13_pro_max_top.png"
+      ]
+    },
+    {
+      "id": "iphone_13_mini",
+      "model": "iPhone 13",
+      "variant": "Mini",
+      "release_date": "2021-09-24",
+      "screen_size": "5.4 inches",
+      "processor": "A15 Bionic chip",
+      "ram": "4GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "2438 mAh",
+      "price": "$699",
+      "rating": 4.6,
+      "img": [
+        "https://example.com/images/iphone_13_mini_front.png",
+        "https://example.com/images/iphone_13_mini_back.png",
+        "https://example.com/images/iphone_13_mini_side.png",
+        "https://example.com/images/iphone_13_mini_screen.png",
+        "https://example.com/images/iphone_13_mini_bottom.png",
+        "https://example.com/images/iphone_13_mini_top.png"
+      ]
+    },
+    {
+      "id": "iphone_14_base",
+      "model": "iPhone 14",
+      "variant": "Base",
+      "release_date": "2022-09-16",
+      "screen_size": "6.1 inches",
+      "processor": "A15 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "3279 mAh",
+      "price": "$799",
+      "rating": 4.6,
+      "img": [
+        "https://example.com/images/iphone_14_base_front.png",
+        "https://example.com/images/iphone_14_base_back.png",
+        "https://example.com/images/iphone_14_base_side.png",
+        "https://example.com/images/iphone_14_base_screen.png",
+        "https://example.com/images/iphone_14_base_bottom.png",
+        "https://example.com/images/iphone_14_base_top.png"
+      ]
+    },
+    {
+      "id": "iphone_14_pro",
+      "model": "iPhone 14",
+      "variant": "Pro",
+      "release_date": "2022-09-16",
+      "screen_size": "6.1 inches",
+      "processor": "A16 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB", "1TB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "3200 mAh",
+      "price": "$999",
+      "rating": 4.7,
+      "img": [
+        "https://example.com/images/iphone_14_pro_front.png",
+        "https://example.com/images/iphone_14_pro_back.png",
+        "https://example.com/images/iphone_14_pro_side.png",
+        "https://example.com/images/iphone_14_pro_screen.png",
+        "https://example.com/images/iphone_14_pro_bottom.png",
+        "https://example.com/images/iphone_14_pro_top.png"
+      ]
+    },
+    {
+      "id": "iphone_14_pro_max",
+      "model": "iPhone 14",
+      "variant": "Pro Max",
+      "release_date": "2022-09-16",
+      "screen_size": "6.7 inches",
+      "processor": "A16 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB", "1TB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "4323 mAh",
+      "price": "$1099",
+      "rating": 4.8,
+      "img": [
+        "https://example.com/images/iphone_14_pro_max_front.png",
+        "https://example.com/images/iphone_14_pro_max_back.png",
+        "https://example.com/images/iphone_14_pro_max_side.png",
+        "https://example.com/images/iphone_14_pro_max_screen.png",
+        "https://example.com/images/iphone_14_pro_max_bottom.png",
+        "https://example.com/images/iphone_14_pro_max_top.png"
+      ]
+    },
+    {
+      "id": "iphone_14_mini",
+      "model": "iPhone 14",
+      "variant": "Mini",
+      "release_date": "2022-09-16",
+      "screen_size": "5.4 inches",
+      "processor": "A15 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "12MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "2438 mAh",
+      "price": "$699",
+      "rating": 4.5,
+      "img": [
+        "https://example.com/images/iphone_14_mini_front.png",
+        "https://example.com/images/iphone_14_mini_back.png",
+        "https://example.com/images/iphone_14_mini_side.png",
+        "https://example.com/images/iphone_14_mini_screen.png",
+        "https://example.com/images/iphone_14_mini_bottom.png",
+        "https://example.com/images/iphone_14_mini_top.png"
+      ]
+    },
+    {
+      "id": "iphone_15_base",
+      "model": "iPhone 15",
+      "variant": "Base",
+      "release_date": "2023-09-22",
+      "screen_size": "6.1 inches",
+      "processor": "A17 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "3279 mAh",
+      "price": "$799",
+      "rating": 4.7,
+      "img": [
+        "https://example.com/images/iphone_15_base_front.png",
+        "https://example.com/images/iphone_15_base_back.png",
+        "https://example.com/images/iphone_15_base_side.png",
+        "https://example.com/images/iphone_15_base_screen.png",
+        "https://example.com/images/iphone_15_base_bottom.png",
+        "https://example.com/images/iphone_15_base_top.png"
+      ]
+    },
+    {
+      "id": "iphone_15_pro",
+      "model": "iPhone 15",
+      "variant": "Pro",
+      "release_date": "2023-09-22",
+      "screen_size": "6.1 inches",
+      "processor": "A17 Bionic chip",
+      "ram": "8GB",
+      "storage_options": ["128GB", "256GB", "512GB", "1TB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "3200 mAh",
+      "price": "$1099",
+      "rating": 4.8,
+      "img": [
+        "https://example.com/images/iphone_15_pro_front.png",
+        "https://example.com/images/iphone_15_pro_back.png",
+        "https://example.com/images/iphone_15_pro_side.png",
+        "https://example.com/images/iphone_15_pro_screen.png",
+        "https://example.com/images/iphone_15_pro_bottom.png",
+        "https://example.com/images/iphone_15_pro_top.png"
+      ]
+    },
+    {
+      "id": "iphone_15_pro_max",
+      "model": "iPhone 15",
+      "variant": "Pro Max",
+      "release_date": "2023-09-22",
+      "screen_size": "6.7 inches",
+      "processor": "A17 Bionic chip",
+      "ram": "8GB",
+      "storage_options": ["128GB", "256GB", "512GB", "1TB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "4323 mAh",
+      "price": "$1199",
+      "rating": 4.9,
+      "img": [
+        "https://example.com/images/iphone_15_pro_max_front.png",
+        "https://example.com/images/iphone_15_pro_max_back.png",
+        "https://example.com/images/iphone_15_pro_max_side.png",
+        "https://example.com/images/iphone_15_pro_max_screen.png",
+        "https://example.com/images/iphone_15_pro_max_bottom.png",
+        "https://example.com/images/iphone_15_pro_max_top.png"
+      ]
+    },
+    {
+      "id": "iphone_15_mini",
+      "model": "iPhone 15",
+      "variant": "Mini",
+      "release_date": "2023-09-22",
+      "screen_size": "5.4 inches",
+      "processor": "A17 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "2438 mAh",
+      "price": "$799",
+      "rating": 4.7,
+      "img": [
+        "https://example.com/images/iphone_15_mini_front.png",
+        "https://example.com/images/iphone_15_mini_back.png",
+        "https://example.com/images/iphone_15_mini_side.png",
+        "https://example.com/images/iphone_15_mini_screen.png",
+        "https://example.com/images/iphone_15_mini_bottom.png",
+        "https://example.com/images/iphone_15_mini_top.png"
+      ]
+    },
+    {
+      "id": "iphone_16_base",
+      "model": "iPhone 16",
+      "variant": "Base",
+      "release_date": "2024-09-22",
+      "screen_size": "6.1 inches",
+      "processor": "A18 Bionic chip",
+      "ram": "8GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "3279 mAh",
+      "price": "$849",
+      "rating": 4.7,
+      "img": [
+        "https://example.com/images/iphone_16_base_front.png",
+        "https://example.com/images/iphone_16_base_back.png",
+        "https://example.com/images/iphone_16_base_side.png",
+        "https://example.com/images/iphone_16_base_screen.png",
+        "https://example.com/images/iphone_16_base_bottom.png",
+        "https://example.com/images/iphone_16_base_top.png"
+      ]
+    },
+    {
+      "id": "iphone_16_pro",
+      "model": "iPhone 16",
+      "variant": "Pro",
+      "release_date": "2024-09-22",
+      "screen_size": "6.1 inches",
+      "processor": "A18 Bionic chip",
+      "ram": "8GB",
+      "storage_options": ["128GB", "256GB", "512GB", "1TB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "3200 mAh",
+      "price": "$1099",
+      "rating": 4.8,
+      "img": [
+        "https://example.com/images/iphone_16_pro_front.png",
+        "https://example.com/images/iphone_16_pro_back.png",
+        "https://example.com/images/iphone_16_pro_side.png",
+        "https://example.com/images/iphone_16_pro_screen.png",
+        "https://example.com/images/iphone_16_pro_bottom.png",
+        "https://example.com/images/iphone_16_pro_top.png"
+      ]
+    },
+    {
+      "id": "iphone_16_pro_max",
+      "model": "iPhone 16",
+      "variant": "Pro Max",
+      "release_date": "2024-09-22",
+      "screen_size": "6.7 inches",
+      "processor": "A18 Bionic chip",
+      "ram": "8GB",
+      "storage_options": ["128GB", "256GB", "512GB", "1TB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide, 12MP telephoto",
+        "front": "12MP"
+      },
+      "battery": "4323 mAh",
+      "price": "$1199",
+      "rating": 4.9,
+      "img": [
+        "https://example.com/images/iphone_16_pro_max_front.png",
+        "https://example.com/images/iphone_16_pro_max_back.png",
+        "https://example.com/images/iphone_16_pro_max_side.png",
+        "https://example.com/images/iphone_16_pro_max_screen.png",
+        "https://example.com/images/iphone_16_pro_max_bottom.png",
+        "https://example.com/images/iphone_16_pro_max_top.png"
+      ]
+    },
+    {
+      "id": "iphone_16_mini",
+      "model": "iPhone 16",
+      "variant": "Mini",
+      "release_date": "2024-09-22",
+      "screen_size": "5.4 inches",
+      "processor": "A18 Bionic chip",
+      "ram": "6GB",
+      "storage_options": ["128GB", "256GB", "512GB"],
+      "camera": {
+        "rear": "48MP main, 12MP ultrawide",
+        "front": "12MP"
+      },
+      "battery": "2438 mAh",
+      "price": "$799",
+      "rating": 4.8,
+      "img": [
+        "https://example.com/images/iphone_16_mini_front.png",
+        "https://example.com/images/iphone_16_mini_back.png",
+        "https://example.com/images/iphone_16_mini_side.png",
+        "https://example.com/images/iphone_16_mini_screen.png",
+        "https://example.com/images/iphone_16_mini_bottom.png",
+        "https://example.com/images/iphone_16_mini_top.png"
+      ]
+    }
+  ]
+  
