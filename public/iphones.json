@@ -133,12 +133,9 @@
       "price": "$1099",
       "rating": 4.8,
       "img": [
-        "https://example.com/images/iphone_12_pro_max_front.png",
-        "https://example.com/images/iphone_12_pro_max_back.png",
-        "https://example.com/images/iphone_12_pro_max_side.png",
-        "https://example.com/images/iphone_12_pro_max_screen.png",
-        "https://example.com/images/iphone_12_pro_max_bottom.png",
-        "https://example.com/images/iphone_12_pro_max_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/Gold-5985.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-12-Pro-(Apple-Refurbished)-Graphite-4239.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/Silver-7923-2505.jpg"
       ]
     },
     {
@@ -158,12 +155,12 @@
       "price": "$699",
       "rating": 4.5,
       "img": [
-        "https://example.com/images/iphone_12_mini_front.png",
-        "https://example.com/images/iphone_12_mini_back.png",
-        "https://example.com/images/iphone_12_mini_side.png",
-        "https://example.com/images/iphone_12_mini_screen.png",
-        "https://example.com/images/iphone_12_mini_bottom.png",
-        "https://example.com/images/iphone_12_mini_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/Mini-White-3920.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/mini-Red-2796.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/Purple-6708.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/1543-21268.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/1543-39674.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/1543-14471.jpg"
       ]
     },
     {
@@ -183,12 +180,12 @@
       "price": "$799",
       "rating": 4.6,
       "img": [
-        "https://example.com/images/iphone_13_base_front.png",
-        "https://example.com/images/iphone_13_base_back.png",
-        "https://example.com/images/iphone_13_base_side.png",
-        "https://example.com/images/iphone_13_base_screen.png",
-        "https://example.com/images/iphone_13_base_bottom.png",
-        "https://example.com/images/iphone_13_base_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-13-9214.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3408-55737.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3408-95471.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3408-30421.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3408-34138.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-13-Green-1718.jpg"
       ]
     },
     {
@@ -208,12 +205,11 @@
       "price": "$999",
       "rating": 4.7,
       "img": [
-        "https://example.com/images/iphone_13_pro_front.png",
-        "https://example.com/images/iphone_13_pro_back.png",
-        "https://example.com/images/iphone_13_pro_side.png",
-        "https://example.com/images/iphone_13_pro_screen.png",
-        "https://example.com/images/iphone_13_pro_bottom.png",
-        "https://example.com/images/iphone_13_pro_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3412-49256.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3412-96207.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3412-99641.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3412-69420.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/Alpine-Green-1998.jpg"
       ]
     },
     {
@@ -233,17 +229,16 @@
       "price": "$1099",
       "rating": 4.8,
       "img": [
-        "https://example.com/images/iphone_13_pro_max_front.png",
-        "https://example.com/images/iphone_13_pro_max_back.png",
-        "https://example.com/images/iphone_13_pro_max_side.png",
-        "https://example.com/images/iphone_13_pro_max_screen.png",
-        "https://example.com/images/iphone_13_pro_max_bottom.png",
-        "https://example.com/images/iphone_13_pro_max_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3413-43484.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3413-15910.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3413-94014.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3413-64537.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3413-94883.jpg"
       ]
     },
     {
       "id": "iphone_13_mini",
-      "model": "iPhone 13",
+      "model": "iPhone 13 Mini",
       "variant": "Mini",
       "release_date": "2021-09-24",
       "screen_size": "5.4 inches",
@@ -258,12 +253,12 @@
       "price": "$699",
       "rating": 4.6,
       "img": [
-        "https://example.com/images/iphone_13_mini_front.png",
-        "https://example.com/images/iphone_13_mini_back.png",
-        "https://example.com/images/iphone_13_mini_side.png",
-        "https://example.com/images/iphone_13_mini_screen.png",
-        "https://example.com/images/iphone_13_mini_bottom.png",
-        "https://example.com/images/iphone_13_mini_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3410-31164.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3410-42224.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3410-36806.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3410-71177.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/3410-92986.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/Device-for-Web-9981.jpg"
       ]
     },
     {
@@ -283,12 +278,12 @@
       "price": "$799",
       "rating": 4.6,
       "img": [
-        "https://example.com/images/iphone_14_base_front.png",
-        "https://example.com/images/iphone_14_base_back.png",
-        "https://example.com/images/iphone_14_base_side.png",
-        "https://example.com/images/iphone_14_base_screen.png",
-        "https://example.com/images/iphone_14_base_bottom.png",
-        "https://example.com/images/iphone_14_base_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Purple-6116.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Blue-7810.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Starlight-8954.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Midnight-4715.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Red-5631.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Yellow-6713.jpg"
       ]
     },
     {
@@ -308,12 +303,10 @@
       "price": "$999",
       "rating": 4.7,
       "img": [
-        "https://example.com/images/iphone_14_pro_front.png",
-        "https://example.com/images/iphone_14_pro_back.png",
-        "https://example.com/images/iphone_14_pro_side.png",
-        "https://example.com/images/iphone_14_pro_screen.png",
-        "https://example.com/images/iphone_14_pro_bottom.png",
-        "https://example.com/images/iphone_14_pro_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Deep-Purple-7300.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Gold-7135.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Silver-1035.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Space-Black-1138.jpg"
       ]
     },
     {
@@ -333,37 +326,10 @@
       "price": "$1099",
       "rating": 4.8,
       "img": [
-        "https://example.com/images/iphone_14_pro_max_front.png",
-        "https://example.com/images/iphone_14_pro_max_back.png",
-        "https://example.com/images/iphone_14_pro_max_side.png",
-        "https://example.com/images/iphone_14_pro_max_screen.png",
-        "https://example.com/images/iphone_14_pro_max_bottom.png",
-        "https://example.com/images/iphone_14_pro_max_top.png"
-      ]
-    },
-    {
-      "id": "iphone_14_mini",
-      "model": "iPhone 14",
-      "variant": "Mini",
-      "release_date": "2022-09-16",
-      "screen_size": "5.4 inches",
-      "processor": "A15 Bionic chip",
-      "ram": "6GB",
-      "storage_options": ["128GB", "256GB", "512GB"],
-      "camera": {
-        "rear": "12MP main, 12MP ultrawide",
-        "front": "12MP"
-      },
-      "battery": "2438 mAh",
-      "price": "$699",
-      "rating": 4.5,
-      "img": [
-        "https://example.com/images/iphone_14_mini_front.png",
-        "https://example.com/images/iphone_14_mini_back.png",
-        "https://example.com/images/iphone_14_mini_side.png",
-        "https://example.com/images/iphone_14_mini_screen.png",
-        "https://example.com/images/iphone_14_mini_bottom.png",
-        "https://example.com/images/iphone_14_mini_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Deep-Purple-7300.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Gold-7135.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Silver-1035.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Space-Black-1138.jpg"
       ]
     },
     {
@@ -383,12 +349,11 @@
       "price": "$799",
       "rating": 4.7,
       "img": [
-        "https://example.com/images/iphone_15_base_front.png",
-        "https://example.com/images/iphone_15_base_back.png",
-        "https://example.com/images/iphone_15_base_side.png",
-        "https://example.com/images/iphone_15_base_screen.png",
-        "https://example.com/images/iphone_15_base_bottom.png",
-        "https://example.com/images/iphone_15_base_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(4)-7443.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(6)-2055.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(3)-8671.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-7161.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(5)-9535.jpg"
       ]
     },
     {
@@ -408,12 +373,10 @@
       "price": "$1099",
       "rating": 4.8,
       "img": [
-        "https://example.com/images/iphone_15_pro_front.png",
-        "https://example.com/images/iphone_15_pro_back.png",
-        "https://example.com/images/iphone_15_pro_side.png",
-        "https://example.com/images/iphone_15_pro_screen.png",
-        "https://example.com/images/iphone_15_pro_bottom.png",
-        "https://example.com/images/iphone_15_pro_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(5)-1544.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(6)-5363.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(1)-6945.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(3)-1073.jpg"
       ]
     },
     {
@@ -433,37 +396,10 @@
       "price": "$1199",
       "rating": 4.9,
       "img": [
-        "https://example.com/images/iphone_15_pro_max_front.png",
-        "https://example.com/images/iphone_15_pro_max_back.png",
-        "https://example.com/images/iphone_15_pro_max_side.png",
-        "https://example.com/images/iphone_15_pro_max_screen.png",
-        "https://example.com/images/iphone_15_pro_max_bottom.png",
-        "https://example.com/images/iphone_15_pro_max_top.png"
-      ]
-    },
-    {
-      "id": "iphone_15_mini",
-      "model": "iPhone 15",
-      "variant": "Mini",
-      "release_date": "2023-09-22",
-      "screen_size": "5.4 inches",
-      "processor": "A17 Bionic chip",
-      "ram": "6GB",
-      "storage_options": ["128GB", "256GB", "512GB"],
-      "camera": {
-        "rear": "48MP main, 12MP ultrawide",
-        "front": "12MP"
-      },
-      "battery": "2438 mAh",
-      "price": "$799",
-      "rating": 4.7,
-      "img": [
-        "https://example.com/images/iphone_15_mini_front.png",
-        "https://example.com/images/iphone_15_mini_back.png",
-        "https://example.com/images/iphone_15_mini_side.png",
-        "https://example.com/images/iphone_15_mini_screen.png",
-        "https://example.com/images/iphone_15_mini_bottom.png",
-        "https://example.com/images/iphone_15_mini_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(5)-1544.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(6)-5363.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(1)-6945.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(3)-1073.jpg"
       ]
     },
     {
@@ -483,12 +419,11 @@
       "price": "$849",
       "rating": 4.7,
       "img": [
-        "https://example.com/images/iphone_16_base_front.png",
-        "https://example.com/images/iphone_16_base_back.png",
-        "https://example.com/images/iphone_16_base_side.png",
-        "https://example.com/images/iphone_16_base_screen.png",
-        "https://example.com/images/iphone_16_base_bottom.png",
-        "https://example.com/images/iphone_16_base_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Plus---16-Black-9711.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Plus---16-Ultramarine-6297.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Plus---16-Teal-5598.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Plus---16-Pink-9850.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Plus---16-White-2018.jpg"
       ]
     },
     {
@@ -508,12 +443,10 @@
       "price": "$1099",
       "rating": 4.8,
       "img": [
-        "https://example.com/images/iphone_16_pro_front.png",
-        "https://example.com/images/iphone_16_pro_back.png",
-        "https://example.com/images/iphone_16_pro_side.png",
-        "https://example.com/images/iphone_16_pro_screen.png",
-        "https://example.com/images/iphone_16_pro_bottom.png",
-        "https://example.com/images/iphone_16_pro_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Desert-Titanium-1929.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Natural-Titanium-3560.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-White-Titanium-5148.jpg"
       ]
     },
     {
@@ -533,37 +466,10 @@
       "price": "$1199",
       "rating": 4.9,
       "img": [
-        "https://example.com/images/iphone_16_pro_max_front.png",
-        "https://example.com/images/iphone_16_pro_max_back.png",
-        "https://example.com/images/iphone_16_pro_max_side.png",
-        "https://example.com/images/iphone_16_pro_max_screen.png",
-        "https://example.com/images/iphone_16_pro_max_bottom.png",
-        "https://example.com/images/iphone_16_pro_max_top.png"
-      ]
-    },
-    {
-      "id": "iphone_16_mini",
-      "model": "iPhone 16",
-      "variant": "Mini",
-      "release_date": "2024-09-22",
-      "screen_size": "5.4 inches",
-      "processor": "A18 Bionic chip",
-      "ram": "6GB",
-      "storage_options": ["128GB", "256GB", "512GB"],
-      "camera": {
-        "rear": "48MP main, 12MP ultrawide",
-        "front": "12MP"
-      },
-      "battery": "2438 mAh",
-      "price": "$799",
-      "rating": 4.8,
-      "img": [
-        "https://example.com/images/iphone_16_mini_front.png",
-        "https://example.com/images/iphone_16_mini_back.png",
-        "https://example.com/images/iphone_16_mini_side.png",
-        "https://example.com/images/iphone_16_mini_screen.png",
-        "https://example.com/images/iphone_16_mini_bottom.png",
-        "https://example.com/images/iphone_16_mini_top.png"
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Desert-Titanium-1929.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-White-Titanium-5148.jpg",
+        "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Natural-Titanium-3560.jpg"
       ]
     }
   ]
