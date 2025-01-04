@@ -4,6 +4,7 @@ import './Header.css'
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
+import navlogo from '../../../public/assets/navlogo.png'
 
 const Header = ({ setToggle }) => {
   const navStyle = "hover:text-emerald-600 px-2 py-1 rounded-lg  hover:font-semibold active:scale-95 transition-all";
@@ -24,7 +25,7 @@ const Header = ({ setToggle }) => {
   return (
     <div className="shadow-lg ">
       <nav className="max-w-screen-2xl md:mx-auto mx-5  flex justify-between items-center py-6 ">
-        <NavLink onClick={() => { setToggle(true) }} to={"/"}><img className="md:w-[250px] w-72" src="/public/assets/navlogo.png" alt="nav-logo" /></NavLink>
+        <NavLink onClick={() => { setToggle(true) }} to={"/"}><img className="md:w-[250px] w-72" src={navlogo} alt="nav-logo" /></NavLink>
 
         <div id="nav-menus" className="hidden md:flex gap-14 font-medium">
           <NavLink className={navStyle} onClick={() => { setToggle(true) }} to={"/"}>Home</NavLink>
