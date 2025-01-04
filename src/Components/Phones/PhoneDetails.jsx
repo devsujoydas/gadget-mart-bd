@@ -184,10 +184,10 @@ const PhoneDetails = () => {
                             <div className="my-5 mx-2">
 
                                 <div className="flex items-center border hover:shadow-lg rounded-md p-1 overflow-hidden transition-all">
-                                    <img className="md:w-36 w-28" src="https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg" alt="" />
+                                    <img className="md:w-36 w-28" src={img[0]} alt="" />
                                     <div className="flex flex-col gap-1">
-                                        <h1 className="text-xl md:font-medium">iPhone 13 Pro Max</h1>
-                                        <h1 className="text-[#F27F20] font-medium">118000/-</h1>
+                                        <h1 className="text-xl md:font-medium">{model}</h1>
+                                        <h1 className="text-[#F27F20] font-medium">{price}</h1>
                                         <div>
                                             <button className="bg-[#F27F20] active:scale-95 transition-all font-semibold text-white md:px-4 px-2 md:py-2 py-1 rounded hover:bg-transparent hover:border-black border border-transparent hover:text-black">Buy Now</button>
                                         </div>

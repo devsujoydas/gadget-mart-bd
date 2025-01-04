@@ -184,8 +184,7 @@
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-12-Pro-(Apple-Refurbished)-Graphite-4239.jpg",
       "https://adminapi.applegadgetsbd.com/storage/media/large/Silver-5985.jpg",
-      "https://adminapi.applegadgetsbd.com/storage/media/large/Gold-1022.jpg",
-      "https://adminapi.applegadgetsbd.com/storage/media/large/iphone-12-pro-gold.jpg"
+      "https://adminapi.applegadgetsbd.com/storage/media/large/Gold-1022.jpg"
     ]
   },
   {
@@ -824,7 +823,8 @@
     "rating": 5,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg",
-      "https://example.com/images/iphone17_base2.jpg"
+      "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg",
+      "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg"
     ]
   },
   {
@@ -860,7 +860,9 @@
     "rating": 5,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-White-Titanium-5148.jpg",
-      "https://example.com/images/iphone17_pro2.jpg"
+      "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-White-Titanium-5148.jpg",
+      "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-White-Titanium-5148.jpg",
+      "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-White-Titanium-5148.jpg"
     ]
   },
   {
@@ -896,7 +898,8 @@
     "rating": 5,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Natural-Titanium-3560.jpg",
-      "https://example.com/images/iphone17pro_max2.jpg"
+      "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Natural-Titanium-3560.jpg"
+      
     ]
   }
 ]
