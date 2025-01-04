@@ -2,6 +2,7 @@ import { useState } from "react"
 import './PhoneDetails.css'
 import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import RecentViewed from "../RecentViewed/RecentViewed";
+import { Helmet } from "react-helmet-async";
 const PhoneDetails = () => {
 
     const [number, setNumber] = useState(1);
@@ -27,13 +28,16 @@ const PhoneDetails = () => {
     console.log(storage_options);
     console.log(img);
     const navigate = useNavigate()
-    const goPayment = () =>{
+    const goPayment = () => {
         navigate('/payment')
     }
 
 
     return (
         <div className="py-10 bg-white min-h-[80vh]">
+            <Helmet>
+                <title>GM-BD | {`${model}`}</title>
+            </Helmet>
             <div className="max-w-screen-2xl lg:mx-auto md:mx-10 mx-6">
                 <div className=" flex w-full gap-5 md:flex-row flex-col">
 
@@ -183,7 +187,7 @@ const PhoneDetails = () => {
 
 
                         {/* Recent Viewes section  */}
-                        <RecentViewed iphone={iphone}/>
+                        <RecentViewed iphone={iphone} />
 
                     </div>
 

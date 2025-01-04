@@ -14,12 +14,15 @@ const Phone = ({ iphone, }) => {
   }
   return (
     <div className="border rounded-xl p-4 bg-white">
+
       <button onClick={navigateHandler}>
         <div className="overflow-hidden">
           <img className="w-full hover:scale-125 transition-all" src={img[0]} alt="" />
         </div>
-        <h1 className="text-gray-400">{brand}</h1>
-        <h1 className="font-semibold text-xl my-2">{model}</h1>
+        <div className="text-left">
+          <h1 className="text-gray-400">{brand}</h1>
+          <h1 className="font-semibold text-xl my-2">{model}</h1>
+        </div>
         <div className="flex justify-between items-center">
           <h1 className="font-semibold hover:text-[#F27F20] transition-all">{price}</h1>
           <p className="flex items-center justify-center">Rating : {rating}</p>
