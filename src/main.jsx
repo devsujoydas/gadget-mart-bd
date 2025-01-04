@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home/Home.jsx'
 import Phones from './Components/Phones/Phones.jsx'
 import PhoneDetails from './Components/Phones/PhoneDetails.jsx'
+import Payment from './Components/Payment/Payment.jsx'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
         element:<PhoneDetails/>,
         loader: ()=> fetch('../iphones.json'),
       },
+      {
+        path:"/payment",
+        element:<Payment/>
+      }
     ]
   }
 ])
