@@ -1,32 +1,24 @@
 import { useState } from "react"
-import './PhoneDetails.css'
 import { useLoaderData, useNavigate, useParams } from "react-router-dom";
-import RecentViewed from "../RecentViewed/RecentViewed";
 import { Helmet } from "react-helmet-async";
+import RecentViewed from "./RecentViewed";
 const PhoneDetails = () => {
-
     const [number, setNumber] = useState(1);
     const increment = () => {
         setNumber(number + 1);
     };
+
     const decrement = () => {
         setNumber(number - 1);
     };
 
     const iphones = useLoaderData();
-    // console.log(iphones);
 
     const selectedId = useParams();
-    // console.log(id.phoneId);
-
 
     const iphone = iphones.find((phone) => phone.id === selectedId.phoneId);
-    console.log(iphone);
 
     const { id, img, price, brand, model, network, dimensions, weight, sim, display_type, display_size, display_resolution, os, chipset, cpu, memory, main_camera, selfie_camera, sound, battery_info, sensors, other_features, release_date, storage_options } = iphone;
-
-    console.log(storage_options);
-    console.log(img);
     const navigate = useNavigate()
     const goPayment = () => {
         navigate('/payment')

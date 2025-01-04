@@ -7,11 +7,13 @@ import Phones from './Components/Phones/Phones.jsx'
 import PhoneDetails from './Components/Phones/PhoneDetails.jsx'
 import Payment from './Components/Payment/Payment.jsx'
 import { HelmetProvider } from 'react-helmet-async'
+import ErrorPage from './Components/ErrorPage/ErrorPage.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement:<ErrorPage/>,
     children: [
       {
         path: "/phone",

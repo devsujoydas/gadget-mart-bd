@@ -1,6 +1,6 @@
 import { useState } from "react"
-import FormForCash from "./FormForCash"
-import FormForOnline from "./FormForOnline"
+import FormForCash from "./FormType/FormForCash"
+import FormForOnline from "./FormType/FormForOnline"
 
 const CashOnDelivery = () => {
     const [formToggler, setFormToggler] = useState(true);
