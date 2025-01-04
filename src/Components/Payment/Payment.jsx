@@ -17,6 +17,12 @@ const Payment = () => {
                         <input type="number" id="phone-number" name="phone-number" placeholder="Phone Number" className="border px-4 py-2 rounded-md" />
                         <label htmlFor="address">Full Address <span className="text-red-500">*</span></label>
                         <textarea type="text" id="address" name="address" placeholder="Address" className="border px-4 py-2 rounded-md" />
+                        <div>
+                            <input type="checkbox" />
+                            <h1>I have read andd agree to the <span>Terms and Conditions</span> and <span>Privacy Policy</span></h1>
+                        </div>
+                        <button>Confirm</button>
+
                     </form>
                 </div>
 
