@@ -11,7 +11,7 @@ const Header = ({ setToggle }) => {
         <div id="nav-menus" className="flex gap-14 font-medium">
           <NavLink className={navStyle} onClick={() => { setToggle(true) }} to={"/"}>Home</NavLink>
           <NavLink className={navStyle} onClick={() => { setToggle(false) }} to={"/phone"}>Phone</NavLink>
-          <NavLink className={navStyle} to={"/contact"}>Contact</NavLink>
+          <NavLink className={navStyle} to={"/payment"}>Payment</NavLink>
           <NavLink className={navStyle} to={"/cart"}>Cart</NavLink>
         </div>
       </nav>

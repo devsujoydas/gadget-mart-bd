@@ -8,6 +8,10 @@ const Phone = ({ iphone, }) => {
   const navigateHandler = () => {
     navigate(`${id}`)
   }
+
+  const goPayment = () => {
+    navigate('/payment')
+  }
   return (
     <div className="border rounded-xl p-4 bg-white">
       <button onClick={navigateHandler}>
@@ -22,7 +26,7 @@ const Phone = ({ iphone, }) => {
         </div>
       </button>
       <div className="flex justify-between items-center text-xs">
-        <button className="bg-[#F27F20] mt-2 text-white px-4 py-2 rounded-md hover:bg-emerald-400 active:scale-95 transition-all">Buy Now</button>
+        <button onClick={goPayment} className="bg-[#F27F20] mt-2 text-white px-4 py-2 rounded-md hover:bg-emerald-400 active:scale-95 transition-all">Buy Now</button>
         <button className="bg- mt-2 border border-black hover:border-transparent px-4 py-2 rounded-md hover:bg-emerald-400 active:scale-95 transition-all">Add To Cart</button>
       </div>
     </div>

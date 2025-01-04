@@ -1,6 +1,6 @@
 import { useState } from "react"
 import './PhoneDetails.css'
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import RecentViewed from "../RecentViewed/RecentViewed";
 const PhoneDetails = () => {
 
@@ -26,6 +26,10 @@ const PhoneDetails = () => {
 
     console.log(storage_options);
     console.log(img);
+    const navigate = useNavigate()
+    const goPayment = () =>{
+        navigate('/payment')
+    }
 
 
     return (
@@ -79,7 +83,7 @@ const PhoneDetails = () => {
                                 <span className="md:px-4 px-2 md:py-1 border-[#F27F20] border-l border-r rounded bg-gray-50 text-[#F27F20]">{number}</span>
                                 <button onClick={increment} className="text-2xl  md:mb-2 scale-105 active:scale-95 transition-all mb-1 md:mt-1">+</button>
                             </div>
-                            <button className="bg-[#F27F20] transition-all  text-white md:px-4 px-2 md:py-2 py-1 rounded hover:bg-transparent hover:border-black border border-transparent active:scale-95 hover:text-[#F27F20]">Buy Now</button>
+                            <button onClick={goPayment} className="bg-[#F27F20] transition-all  text-white md:px-4 px-2 md:py-2 py-1 rounded hover:bg-transparent hover:border-black border border-transparent active:scale-95 hover:text-[#F27F20]">Buy Now</button>
                             <button className="hover:bg-[#F27F20] text-[#F27F20] active:scale-95  hover:text-white border border-black hover:border-transparent transition-all md:px-4 px-2 md:py-2 py-1 rounded">Add To Card</button>
                         </div>
                     </div>

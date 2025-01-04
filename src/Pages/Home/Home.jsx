@@ -4,7 +4,6 @@ import Footer from "../../Components/Footer/Footer"
 import { Outlet } from "react-router-dom"
 import Hero from "../../Components/Hero/Hero"
 import { useState } from "react"
-import Payment from "../../Components/Payment/Payment"
 
 const Home = () => {
   const [toggle, setToggle] = useState(true)
@@ -14,7 +13,7 @@ const Home = () => {
       <Header setToggle={setToggle}/>
       <div>
         {
-          toggle ? <Payment/> : <Outlet/>
+          toggle ? <Hero/> : <Outlet/>
         }
       </div>
       

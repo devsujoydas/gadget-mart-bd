@@ -1,8 +1,14 @@
 /* eslint-disable react/prop-types */
 
+import { useNavigate } from "react-router-dom";
+
 
 const RecentViewed = ({iphone}) => {
     const {img, model, price} = iphone;
+    const navigate = useNavigate()
+    const goPayment = () =>{
+        navigate('/payment')
+    }
     return (
         <div>
             <div className="lg:col-span-1 border-2 pt-4 rounded-lg">
@@ -16,7 +22,7 @@ const RecentViewed = ({iphone}) => {
                             <h1 className="text-xl md:font-medium">{model}</h1>
                             <h1 className="text-[#F27F20] font-medium">{price}</h1>
                             <div>
-                                <button className="bg-[#F27F20] active:scale-95 transition-all font-semibold text-white md:px-4 px-2 md:py-2 py-1 rounded hover:bg-transparent hover:border-black border border-transparent hover:text-black">Buy Now</button>
+                                <button onClick={goPayment} className="bg-[#F27F20] active:scale-95 transition-all font-semibold text-white md:px-4 px-2 md:py-2 py-1 rounded hover:bg-transparent hover:border-black border border-transparent hover:text-black">Buy Now</button>
                             </div>
                         </div>
                     </div>
