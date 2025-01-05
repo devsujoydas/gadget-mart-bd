@@ -8,6 +8,7 @@ import PhoneDetails from './Components/Phones/PhoneDetails.jsx'
 import Payment from './Components/Payment/Payment.jsx'
 import { HelmetProvider } from 'react-helmet-async'
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx'
+import SignUp from './Components/SignUp/SignUp.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/payment",
         element: <Payment />
+      },
+      {
+        path: "/signup",
+        element: <SignUp />
       }
     ]
   }
