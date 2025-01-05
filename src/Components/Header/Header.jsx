@@ -29,7 +29,7 @@ const Header = ({ setToggle }) => {
           <NavLink className={navStyle} onClick={() => { setToggle(true) }} to={"/"}>Home</NavLink>
           <NavLink className={navStyle} onClick={() => { setToggle(false) }} to={"/phone"}>Phone</NavLink>
           <NavLink className={navStyle} to={"/payment"}>Payment</NavLink>
-          <NavLink className={navStyle} to={"/payment"}>Log In</NavLink>
+          <NavLink className={navStyle} to={"/login"}>Log In</NavLink>
 
         </div>
 
