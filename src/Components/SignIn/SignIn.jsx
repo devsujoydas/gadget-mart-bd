@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const SignUp = () => {
+const SignIn = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [remember, setRemember] = useState(false);
@@ -89,4 +89,4 @@ const SignUp = () => {
     );
 };
 
-export default SignUp;
+export default SignIn;
