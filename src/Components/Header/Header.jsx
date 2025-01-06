@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { NavLink } from "react-router-dom"
 import './Header.css'
