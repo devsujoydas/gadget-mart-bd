@@ -18,6 +18,7 @@ const Home = () => {
         <title>GADGETS | Home</title>
       </Helmet>
       <Header setToggle={setToggle} />
+      
       {toggle ? <Hero /> : navigation.state == 'loading' ? <LoaderSpiner /> : <Outlet />}
 
       <Footer />
