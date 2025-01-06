@@ -5,12 +5,13 @@ import { useNavigate } from "react-router-dom";
 const Phone = ({ iphone, }) => {
   const { id, brand, model, price, img, rating } = iphone;
   const navigate = useNavigate()
+
   const navigateHandler = () => {
     navigate(`${id}`)
   }
 
   const goPayment = () => {
-    navigate('/payment')
+    navigate(`/payment/${id}`)
   }
   return (
     <div className="border rounded-xl p-4 bg-white">

@@ -27,8 +27,9 @@ const router = createBrowserRouter([
         loader: () => fetch('../iphones.json'),
       },
       {
-        path: "/payment",
-        element: <Payment />
+        path: "/payment/:phoneId",
+        element: <Payment />,
+        loader: () => fetch('../iphones.json'),
       },
       {
         path: "/signin",

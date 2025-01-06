@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const YourOrder = () => {
+const YourOrder = ({img, model, price, storage_options}) => {
     const [number, setNumber] = useState(1);
     const increment = () => {
         setNumber(number + 1);
@@ -15,10 +15,10 @@ const YourOrder = () => {
 
                 <div className="flex justify-between   items-center border  rounded-md p-1 overflow-hidden transition-all gap-3">
                     <div className="flex gap-3  ">
-                        <img className="md:w-28 w-20" src="https://adminapi.applegadgetsbd.com/storage/media/thumb/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg" alt="" />
+                        <img className="md:w-28 w-20" src={img[0]} alt="" />
                         <div className="grid gap-2">
-                            <h1 className="md:text-xl md:font-medium">iPhone 16 Pro Max</h1>
-                            <h1 className="text-[#F27F20] font-medium md:text-xl text-xs ">256GB</h1>
+                            <h1 className="md:text-xl md:font-medium">{model}</h1>
+                            <h1 className="text-[#F27F20] font-medium md:text-xl text-xs ">{storage_options[0]}</h1>
                             <div>
                                 <button className="bg-[#F27F20] font-medium text-white px-2 py-1 md:px-4 md:py-2 rounded-md hover:bg-transparent active:scale-95 border hover:border-black hover:text-black transition-all md:text-xl text-xs">View Details</button>
                             </div>
@@ -30,7 +30,7 @@ const YourOrder = () => {
                             <span className="md:px-2  bg-gray-200 ">{number}</span>
                             <button onClick={increment} className=" scale-105 active:scale-95 transition-all px-1 ">+</button>
                         </div>
-                        <h1 className="text-center text-[#F27F20] font-medium">156400</h1>
+                        <h1 className="text-center text-[#F27F20] font-medium">{price}</h1>
                     </div>
                 </div>
 
@@ -42,7 +42,7 @@ const YourOrder = () => {
                 <div className="grid gap-3">
                     <div className="text-gray-600 font-medium flex items-center justify-between text-xl">
                         <h1>Subtotal</h1>
-                        <h1>BDT 49550</h1>
+                        <h1>USD {price}</h1>
                     </div>
                     <div className="text-gray-600 font-medium flex items-center justify-between text-xl">
                         <h1>Delivery Charge</h1>
@@ -50,7 +50,7 @@ const YourOrder = () => {
                     </div>
                     <div className="text-gray-600 border-t-2 py-3 border-gray-300 font-medium flex items-center justify-between text-xl">
                         <h1>Total</h1>
-                        <h1>BDT 50000</h1>
+                        <h1>USD {price}</h1>
                     </div>
                 </div>
             </div>

@@ -19,9 +19,10 @@ const PhoneDetails = () => {
     const iphone = iphones.find((phone) => phone.id === selectedId.phoneId);
 
     const { id, img, price, brand, model, network, dimensions, weight, sim, display_type, display_size, display_resolution, os, chipset, cpu, memory, main_camera, selfie_camera, sound, battery_info, sensors, other_features, release_date, storage_options } = iphone;
+    
     const navigate = useNavigate()
     const goPayment = () => {
-        navigate('/payment')
+        navigate(`/payment/${id}`)
     }
 
 
