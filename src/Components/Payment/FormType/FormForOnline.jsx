@@ -33,7 +33,7 @@ const FormForOnline = () => {
                     <option value="Bank">Bank</option>
                 </select>
 
-                <label htmlFor="phone-number">Phone Number <span className="text-red-500">*</span></label>
+                <label htmlFor="phone-number">{selectedOption} Number <span className="text-red-500">*</span></label>
                 <input type="number" id="phone-number" name="phone-number" placeholder={`Enter ${selectedOption} Account Number`} className="border px-4 py-2 rounded-md" />
 
                 <label htmlFor="address">Full Address <span className="text-red-500">*</span></label>

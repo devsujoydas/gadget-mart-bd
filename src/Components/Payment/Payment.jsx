@@ -7,7 +7,7 @@ const Payment = () => {
     return (
         <div className="md:my-28 my-10">
             <Helmet>
-                <title>GADGET-MART-BD | Payment</title>
+                <title>Gadgets | Payment</title>
             </Helmet>
             <div id="confirm" className="max-w-screen-2xl lg:mx-auto md:mx-20 mx-8 grid lg:grid-cols-2 gap-10 grid-cols-1" >
                 <CashOnDelivery />

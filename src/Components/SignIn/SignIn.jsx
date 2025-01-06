@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const SignIn = () => {
     const [email, setEmail] = useState('');
@@ -16,6 +17,9 @@ const SignIn = () => {
 
     return (
         <div className='md:p-28 px-7 py-28 bg-[#06101C]'>
+            <Helmet>
+                <title>Gadgets | Sign In</title>
+            </Helmet>
 
             <div className="max-w-[450px] mx-auto border  border-gray-700 rounded-md p-10 bg-[#050E18] text-white">
                 <h1 className="text-3xl font-bold ">Sign in</h1>

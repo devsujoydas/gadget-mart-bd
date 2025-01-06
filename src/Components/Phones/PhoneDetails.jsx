@@ -31,7 +31,7 @@ const PhoneDetails = () => {
                 <title>GM-BD | {`${model}`}</title>
             </Helmet>
             <div className="max-w-screen-2xl lg:mx-auto md:mx-10 mx-6">
-                <div className=" flex w-full gap-5 md:flex-row flex-col">
+                <div className=" flex w-full gap-5 lg:flex-row flex-col">
 
                     <div className="rounded-xl overflow-hidden grid gap-5 md:justify-start justify-center ">
                         <div className="overflow-hidden rounded-xl border">
