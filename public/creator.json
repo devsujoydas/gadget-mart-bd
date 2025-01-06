@@ -1,0 +1,408 @@
+[
+    {
+        "id": "1",
+        "name": "Jimmy Donaldson",
+        "img": "https://via.placeholder.com/150",
+        "alias": "MrBeast",
+        "profession": "YouTuber, Philanthropist, Entrepreneur",
+        "date_of_birth": "1998-05-07",
+        "nationality": "American",
+        "notable_for": [
+            "Expensive challenges and giveaways",
+            "Philanthropic activities",
+            "High-production YouTube videos"
+        ],
+        "social_media": {
+            "youtube": "https://www.youtube.com/user/MrBeast6000",
+            "twitter": "https://twitter.com/MrBeast",
+            "instagram": "https://www.instagram.com/mrbeast"
+        },
+        "businesses": [
+            {
+                "name": "Beast Burgers",
+                "type": "Food service",
+                "description": "A virtual restaurant chain offering burgers and other fast food items.",
+                "website": "https://www.mrbeastburger.com"
+            },
+            {
+                "name": "Feastables",
+                "type": "Snacks",
+                "description": "A chocolate brand launched by MrBeast.",
+                "website": "https://feastables.com"
+            }
+        ],
+        "philanthropy": [
+            {
+                "name": "Team Trees",
+                "goal": "Plant 20 million trees by 2020",
+                "partners": [
+                    "Arbor Day Foundation"
+                ]
+            },
+            {
+                "name": "Team Seas",
+                "goal": "Remove 30 million pounds of trash from oceans by 2022",
+                "partners": [
+                    "Ocean Conservancy",
+                    "The Ocean Cleanup"
+                ]
+            }
+        ],
+        "achievements": [
+            "Over 200 million YouTube subscribers (as of 2025)",
+            "Creator of some of the most-viewed videos on YouTube",
+            "Significant donations to charitable causes"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Elon Musk",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Engineer, Inventor",
+        "date_of_birth": "1971-06-28",
+        "nationality": "South African-American",
+        "notable_for": [
+            "CEO of Tesla, SpaceX, and Twitter (X)",
+            "Developing sustainable energy solutions",
+            "Advancing space exploration and AI"
+        ],
+        "businesses": [
+            {
+                "name": "SpaceX",
+                "type": "Aerospace manufacturer",
+                "description": "Advancing space exploration with reusable rocket technology.",
+                "website": "https://www.spacex.com"
+            },
+            {
+                "name": "Tesla",
+                "type": "Electric vehicle and energy company",
+                "description": "Revolutionizing sustainable energy with electric cars and solar technology.",
+                "website": "https://www.tesla.com"
+            },
+            {
+                "name": "X (formerly Twitter)",
+                "type": "Social media platform",
+                "description": "A microblogging platform acquired and rebranded by Elon Musk.",
+                "website": "https://www.x.com"
+            }
+        ],
+        "achievements": [
+            "First private company to send astronauts to the International Space Station",
+            "Developed Tesla's first mass-market electric vehicle",
+            "Acquired and rebranded Twitter to X, focusing on free speech"
+        ],
+        "social_media": {
+            "twitter": "https://twitter.com/elonmusk"
+        }
+    },
+    {
+        "id": "3",
+        "name": "Mark Zuckerberg",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Software Developer",
+        "date_of_birth": "1984-05-14",
+        "nationality": "American",
+        "notable_for": [
+            "Co-founder of Facebook",
+            "One of the youngest billionaires"
+        ],
+        "businesses": [
+            {
+                "name": "Facebook (Meta Platforms)",
+                "type": "Social media and technology",
+                "description": "A social networking platform that connects billions of users worldwide.",
+                "website": "https://www.facebook.com"
+            }
+        ],
+        "philanthropy": [
+            {
+                "name": "Chan Zuckerberg Initiative",
+                "focus_areas": [
+                    "Education",
+                    "Scientific research",
+                    "Community development"
+                ],
+                "website": "https://www.chanzuckerberg.com"
+            }
+        ],
+        "achievements": [
+            "Launched Facebook in 2004 while studying at Harvard",
+            "Transformed Facebook into Meta Platforms, leading the development of the metaverse"
+        ],
+        "social_media": {
+            "facebook": "https://www.facebook.com/zuck",
+            "instagram": "https://www.instagram.com/zuck"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Jeff Bezos",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Investor, Philanthropist",
+        "date_of_birth": "1964-01-12",
+        "nationality": "American",
+        "notable_for": [
+            "Founder of Amazon",
+            "Leading innovation in e-commerce",
+            "Owner of The Washington Post"
+        ],
+        "businesses": [
+            {
+                "name": "Amazon",
+                "type": "E-commerce and Technology",
+                "description": "The world's largest online retailer and cloud computing provider.",
+                "website": "https://www.amazon.com"
+            },
+            {
+                "name": "Blue Origin",
+                "type": "Aerospace manufacturer",
+                "description": "Focused on enabling private space exploration.",
+                "website": "https://www.blueorigin.com"
+            }
+        ],
+        "achievements": [
+            "Founded Amazon in 1994, transforming global e-commerce",
+            "Launched Blue Origin to advance space tourism",
+            "Named one of the wealthiest individuals globally"
+        ],
+        "social_media": {
+            "twitter": "https://twitter.com/JeffBezos"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Larry Page",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Computer Scientist",
+        "date_of_birth": "1973-03-26",
+        "nationality": "American",
+        "notable_for": [
+            "Co-founder of Google",
+            "Creator of PageRank algorithm"
+        ],
+        "businesses": [
+            {
+                "name": "Google",
+                "type": "Search Engine and Technology",
+                "description": "World's leading search engine and technology company.",
+                "website": "https://www.google.com"
+            },
+            {
+                "name": "Alphabet Inc.",
+                "type": "Conglomerate",
+                "description": "Parent company of Google and its subsidiaries.",
+                "website": "https://abc.xyz"
+            }
+        ],
+        "achievements": [
+            "Co-created the PageRank algorithm, revolutionizing search engines",
+            "Served as CEO of Alphabet Inc., the parent company of Google",
+            "Named one of Time's most influential people"
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Sergey Brin",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Computer Scientist",
+        "date_of_birth": "1973-08-21",
+        "nationality": "American",
+        "notable_for": [
+            "Co-founder of Google",
+            "Creator of PageRank algorithm"
+        ],
+        "businesses": [
+            {
+                "name": "Google",
+                "type": "Search Engine and Technology",
+                "description": "World's leading search engine and technology company.",
+                "website": "https://www.google.com"
+            },
+            {
+                "name": "Alphabet Inc.",
+                "type": "Conglomerate",
+                "description": "Parent company of Google and its subsidiaries.",
+                "website": "https://abc.xyz"
+            }
+        ],
+        "achievements": [
+            "Co-created the PageRank algorithm with Larry Page",
+            "Served as President of Google and Alphabet Inc."
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Ronald Wayne",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Co-founder of Apple",
+        "date_of_birth": "1934-05-17",
+        "nationality": "American",
+        "notable_for": [
+            "Co-founder of Apple Inc.",
+            "Sold his Apple shares early for $800"
+        ],
+        "businesses": [
+            {
+                "name": "Apple Inc.",
+                "type": "Technology",
+                "description": "A multinational technology company that designs, manufactures, and sells consumer electronics.",
+                "website": "https://www.apple.com"
+            }
+        ],
+        "achievements": [
+            "Co-founded Apple in 1976 with Steve Jobs and Steve Wozniak",
+            "Sold his shares in Apple, missing out on billions in profits"
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Steve Wozniak",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Computer Engineer",
+        "date_of_birth": "1950-08-11",
+        "nationality": "American",
+        "notable_for": [
+            "Co-founder of Apple Inc.",
+            "Inventor of the Apple I and II computers"
+        ],
+        "businesses": [
+            {
+                "name": "Apple Inc.",
+                "type": "Technology",
+                "description": "A multinational technology company that designs, manufactures, and sells consumer electronics.",
+                "website": "https://www.apple.com"
+            }
+        ],
+        "achievements": [
+            "Co-founded Apple and helped design the first personal computers",
+            "Invented the Apple I and Apple II"
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Steve Jobs",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Inventor",
+        "date_of_birth": "1955-02-24",
+        "nationality": "American",
+        "notable_for": [
+            "Co-founder of Apple Inc.",
+            "Revolutionized personal computing and consumer electronics"
+        ],
+        "businesses": [
+            {
+                "name": "Apple Inc.",
+                "type": "Technology",
+                "description": "A multinational technology company that designs, manufactures, and sells consumer electronics.",
+                "website": "https://www.apple.com"
+            }
+        ],
+        "achievements": [
+            "Revolutionized the personal computer, smartphone, and tablet industries",
+            "Co-founded Pixar, which was later sold to Disney"
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Bill Gates",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Software Developer",
+        "date_of_birth": "1955-10-28",
+        "nationality": "American",
+        "notable_for": [
+            "Co-founder of Microsoft",
+            "Philanthropist through the Bill & Melinda Gates Foundation"
+        ],
+        "businesses": [
+            {
+                "name": "Microsoft",
+                "type": "Technology",
+                "description": "The world’s largest software company, best known for the Windows operating system.",
+                "website": "https://www.microsoft.com"
+            },
+            {
+                "name": "Bill & Melinda Gates Foundation",
+                "type": "Philanthropy",
+                "description": "A global foundation focused on health, poverty alleviation, and education.",
+                "website": "https://www.gatesfoundation.org"
+            }
+        ],
+        "achievements": [
+            "Co-founded Microsoft, transforming the software industry",
+            "Became one of the richest people in the world",
+            "Philanthropist through the Bill & Melinda Gates Foundation"
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Steve Chen",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Software Engineer",
+        "date_of_birth": "1978-08-18",
+        "nationality": "Taiwanese-American",
+        "notable_for": [
+            "Co-founder of YouTube",
+            "Early work in video sharing technology"
+        ],
+        "businesses": [
+            {
+                "name": "YouTube",
+                "type": "Video Sharing Platform",
+                "description": "A global video-sharing platform that was co-founded by Steve Chen.",
+                "website": "https://www.youtube.com"
+            }
+        ],
+        "achievements": [
+            "Co-founded YouTube and helped pioneer video-sharing platforms",
+            "Sold YouTube to Google for $1.65 billion"
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Chad Hurley",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Software Developer",
+        "date_of_birth": "1977-01-24",
+        "nationality": "American",
+        "notable_for": [
+            "Co-founder of YouTube",
+            "Early work in video-sharing technology"
+        ],
+        "businesses": [
+            {
+                "name": "YouTube",
+                "type": "Video Sharing Platform",
+                "description": "A global video-sharing platform that was co-founded by Chad Hurley.",
+                "website": "https://www.youtube.com"
+            }
+        ],
+        "achievements": [
+            "Co-founded YouTube and helped pioneer video-sharing platforms",
+            "Sold YouTube to Google for $1.65 billion"
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Jawed Karim",
+        "img": "https://via.placeholder.com/150",
+        "profession": "Entrepreneur, Software Engineer",
+        "date_of_birth": "1979-10-28",
+        "nationality": "American",
+        "notable_for": [
+            "Co-founder of YouTube",
+            "First video uploaded to YouTube"
+        ],
+        "businesses": [
+            {
+                "name": "YouTube",
+                "type": "Video Sharing Platform",
+                "description": "A global video-sharing platform that was co-founded by Jawed Karim.",
+                "website": "https://www.youtube.com"
+            }
+        ],
+        "achievements": [
+            "Co-founded YouTube and uploaded the first video titled 'Me at the zoo'",
+            "Helped YouTube become the largest video-sharing platform"
+        ]
+    }
+]

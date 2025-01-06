@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { NavLink } from "react-router-dom"
 import './Header.css'
@@ -11,7 +10,6 @@ const Header = ({ setToggle }) => {
   const navStyle = "hover:text-emerald-600 px-2 py-1 rounded-lg  hover:font-semibold active:scale-95 transition-all";
   const [toggleMenuClose, setToggleMenuClose] = useState(false)
   const [navForSm, setNavForSm] = useState("hidden");
-
   const menuCloseBtnHandler = () => {
     if (toggleMenuClose) {
       setToggleMenuClose(false)
@@ -21,15 +19,6 @@ const Header = ({ setToggle }) => {
       setNavForSm('md:hidden absolute right-8 top-24 mt-2 p-4 rounded-lg text-lg bg-white border z-10 flex flex-col gap-3 font-medium')
     }
   }
-  
-  const setToggleTrue = () => {
-    setToggle(true)
-    
-  }
-  const setToggleFalse = () => {
-    setNavForSm('hidden')
-    setToggle(false)
-  }
 
   return (
     <div className="shadow-lg ">
@@ -37,23 +26,23 @@ const Header = ({ setToggle }) => {
         <NavLink onClick={() => { setToggle(true) }} to={"/"}><img className="md:w-[250px] w-72" src={navlogo} alt="nav-logo" /></NavLink>
 
         <div id="nav-menus" className="hidden md:flex gap-14 font-medium">
-          <NavLink className={navStyle} onClick={() => { setToggleTrue }} to={"/"}>Home</NavLink>
-          <NavLink className={navStyle} onClick={() => {  }} to={"/phone"}>Phone</NavLink>
-          <NavLink className={navStyle} onClick={() => { setToggleTrue }} to={"/payment"}>Payment</NavLink>
-          <NavLink className={navStyle} onClick={() => { setToggleTrue }} to={"/signin"}>Sign In</NavLink>
+          <NavLink className={navStyle} onClick={() => { setToggle(true) }} to={"/"}>Home</NavLink>
+          <NavLink className={navStyle} onClick={() => { setToggle(false) }} to={"/phone"}>Phone</NavLink>
+          <NavLink className={navStyle} to={"/payment"}>Payment</NavLink>
+          <NavLink className={navStyle} to={"/signin"}>Sign In</NavLink>
 
         </div>
 
         <button onClick={menuCloseBtnHandler} className="md:hidden">
           {
-            toggleMenuClose ? <IoClose className="text-5xl" /> : <IoMdMenu className="text-5xl" />
+            toggleMenuClose ?<IoClose className="text-5xl" /> : <IoMdMenu className="text-5xl" /> 
           }
         </button>
         <div id="nav-menus" className={navForSm}>
           <NavLink className={navStyle} onClick={() => { setToggle(true) }} to={"/"}>Home</NavLink>
           <NavLink className={navStyle} onClick={() => { setToggle(false) }} to={"/phone"}>Phone</NavLink>
           <NavLink className={navStyle} to={"/payment"}>Payment</NavLink>
-
+        
           <NavLink className={navStyle} to={"/signin"}>Sign In</NavLink>
         </div>
       </nav>
