@@ -9,6 +9,7 @@ import Payment from './Components/Payment/Payment.jsx'
 import { HelmetProvider } from 'react-helmet-async'
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx'
 import SignIn from './Components/SignIn/SignIn.jsx'
+import AddToCart from './Components/AddToCart/AddToCart.jsx'
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,11 @@ const router = createBrowserRouter([
         loader: () => fetch('../iphones.json'),
       },
       {
+        path: "/",
+        element: <AddToCart />,
+        loader: () => fetch('../iphones.json'),
+      },
+      {
         path: "/signin",
         element: <SignIn />
       }
@@ -40,7 +46,6 @@ const router = createBrowserRouter([
 ])
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    
     <HelmetProvider>
       <RouterProvider router={router} />
     </HelmetProvider>

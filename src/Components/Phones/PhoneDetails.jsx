@@ -3,6 +3,7 @@ import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import RecentViewed from "./RecentViewed";
 import imgDefault from "../../../public/assets/iPhone-11-Pro-Used.webp"
+import { saveItemInLS } from "../utility/Local";
 const PhoneDetails = () => {
     const [number, setNumber] = useState(1);
     const increment = () => {
@@ -25,7 +26,9 @@ const PhoneDetails = () => {
     const goPayment = () => {
         navigate(`/payment/${id}`)
     }
-
+    const addToCart = () =>{
+        saveItemInLS(id)
+      }
 
     return (
         <div className="py-10 bg-white min-h-[80vh]">
@@ -83,7 +86,7 @@ const PhoneDetails = () => {
                                 <button onClick={increment} className="text-2xl  md:mb-2 scale-105 active:scale-95 transition-all mb-1 md:mt-1">+</button>
                             </div>
                             <button onClick={goPayment} className="bg-[#F27F20] transition-all  text-white md:px-4 px-2 md:py-2 py-1 rounded hover:bg-transparent hover:border-black border border-transparent active:scale-95 hover:text-[#F27F20]">Buy Now</button>
-                            <button className="hover:bg-[#F27F20] text-[#F27F20] active:scale-95  hover:text-white border border-black hover:border-transparent transition-all md:px-4 px-2 md:py-2 py-1 rounded">Add To Card</button>
+                            <button onClick={addToCart} className="hover:bg-[#F27F20] text-[#F27F20] active:scale-95  hover:text-white border border-black hover:border-transparent transition-all md:px-4 px-2 md:py-2 py-1 rounded">Add To Card</button>
                         </div>
                     </div>
                 </div>

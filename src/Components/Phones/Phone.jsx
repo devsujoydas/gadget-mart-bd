@@ -2,6 +2,7 @@
 /* eslint-disable react/prop-types */
 import imgDefault from "../../../public/assets/iPhone-11-Pro-Used.webp"
 import { useNavigate } from "react-router-dom";
+import { saveItemInLS } from "../utility/Local";
 
 const Phone = ({ iphone, }) => {
   const { id, brand, model, price, img, rating } = iphone;
@@ -13,6 +14,10 @@ const Phone = ({ iphone, }) => {
 
   const goPayment = () => {
     navigate(`/payment/${id}`)
+  }
+
+  const addToCart = () =>{
+    saveItemInLS(id)
   }
   return (
     <div className="border rounded-xl p-4 bg-white">
@@ -33,7 +38,7 @@ const Phone = ({ iphone, }) => {
       </button>
       <div className="flex justify-between items-center text-xs">
         <button onClick={goPayment} className="bg-[#F27F20] mt-2 text-white px-4 py-2 rounded-md hover:bg-emerald-400 active:scale-95 transition-all">Buy Now</button>
-        <button className="bg- mt-2 border border-black hover:border-transparent px-4 py-2 rounded-md hover:bg-emerald-400 active:scale-95 transition-all">Add To Cart</button>
+        <button onClick={addToCart} className="bg- mt-2 border border-black hover:border-transparent px-4 py-2 rounded-md hover:bg-emerald-400 active:scale-95 transition-all">Add To Cart</button>
       </div>
     </div>
   )

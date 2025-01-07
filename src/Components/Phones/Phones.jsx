@@ -2,6 +2,8 @@ import { useLoaderData } from "react-router-dom";
 import Phone from "./Phone"
 import { Helmet } from "react-helmet-async";
 
+
+
 const Phones = () => {
   const iphones = useLoaderData();
 
