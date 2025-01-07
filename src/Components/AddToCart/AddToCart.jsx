@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useLoaderData } from "react-router-dom";
 import { getItemFromLS } from "../utility/Local";
 import { useEffect, useState } from "react";
