@@ -35,7 +35,7 @@ const Header = ({ setToggle }) => {
 
         <button onClick={menuCloseBtnHandler} className="md:hidden">
           {
-            toggleMenuClose ?<IoClose className="text-5xl" /> : <IoMdMenu className="text-5xl" /> 
+            toggleMenuClose ? <IoClose className="text-5xl" /> : <IoMdMenu className="text-5xl" />
           }
         </button>
         <div id="nav-menus" className={navForSm}>
