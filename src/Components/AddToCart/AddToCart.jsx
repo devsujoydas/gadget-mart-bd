@@ -1,25 +1,40 @@
 import { useLoaderData } from "react-router-dom";
-import { getItemFromLS } from "../utility/Local"
+import { getItemFromLS } from "../utility/Local";
+import { useEffect, useState } from "react";
 
 const AddToCart = () => {
-    const phoneIdFromLS = getItemFromLS()
-    console.log(phoneIdFromLS);
+    const iphones = useLoaderData() || [];
+    console.log("iPhones:", iphones);
 
-    const iphones = useLoaderData()
-    console.log(iphones);
+    const [addedItem, setAddedItem] = useState([]);
+    const [displayItem, setDisplayItem] = useState([]);
+
+    useEffect(() => {
+        const phoneIdFromLS = getItemFromLS() || []; // Ensure it returns an array
+        if (iphones.length > 0) {
+            const itemAdded = [];
+            for (const id of phoneIdFromLS) {
+                const iphone = iphones.find(iphone => iphone.id === id);
+                if (iphone) itemAdded.push(iphone);
+            }
+            setAddedItem(itemAdded);
+            setDisplayItem(itemAdded);
+        }
+    }, [iphones]);
+
+    console.log("Added Items:", addedItem);
+    console.log("Display Items:", displayItem);
 
     return (
         <div>
             <div>
-                {phoneIdFromLS.map((phoneid, idx) => <h1 key={idx}>{phoneid}</h1>)}
-            </div>
-            <div>
-                {/* {
-                    phones.map((iphone,idx)=> <Phone phone={iphone} key={idx}/>)
-                } */}
+                <h1>hi</h1>
+                {displayItem.map(item => (
+                    <div key={item.id}>{item.name}</div>
+                ))}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default AddToCart
+export default AddToCart;
