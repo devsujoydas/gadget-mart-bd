@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import { getItemFromLS } from "../utility/Local";
 import { useEffect, useState } from "react";
+import DisplayItem from "./DisplayItem";
 
 const AddToCart = () => {
     const iphones = useLoaderData() || [];
@@ -27,11 +28,11 @@ const AddToCart = () => {
 
     return (
         <div>
-            <div>
-                <h1>hi</h1>
-                {displayItem.map(item => (
-                    <div key={item.id}>{item.name}</div>
-                ))}
+            <div className="max-w-screen-2xl md:mx-auto mx-10 my-10">
+                <h1 className="font-semibold text-3xl text-center">Added Items</h1>
+                <h1>Phones Length : {displayItem.length}</h1>
+
+                <DisplayItem displayItem={displayItem}/>
             </div>
         </div>
     );

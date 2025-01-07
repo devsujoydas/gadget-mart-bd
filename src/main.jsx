@@ -33,7 +33,7 @@ const router = createBrowserRouter([
         loader: () => fetch('../iphones.json'),
       },
       {
-        path: "/",
+        path: "/addtocart",
         element: <AddToCart />,
         loader: () => fetch('../iphones.json'),
       },

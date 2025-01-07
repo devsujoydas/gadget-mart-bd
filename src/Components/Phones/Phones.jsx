@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router-dom";
-import Phone from "./Phone"
 import { Helmet } from "react-helmet-async";
+import Phone from "./Phone";
 
 
 

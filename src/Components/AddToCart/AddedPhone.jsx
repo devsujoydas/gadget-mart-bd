@@ -1,10 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import imgDefault from "../../../public/assets/iPhone-11-Pro-Used.webp"
-import { useNavigate } from "react-router-dom";
-import { saveItemInLS } from "../utility/Local";
 
-const Phone = ({ iphone, }) => {
+import { useNavigate } from "react-router-dom";
+
+const AddedPhone = ({ iphone, }) => {
   const { id, brand, model, price, img, rating } = iphone;
   const navigate = useNavigate()
 
@@ -16,9 +15,6 @@ const Phone = ({ iphone, }) => {
     navigate(`/payment/${id}`)
   }
 
-  const addToCart = () =>{
-    saveItemInLS(id)
-  }
   return (
     <div className="border rounded-xl p-4 bg-white">
 
@@ -36,12 +32,11 @@ const Phone = ({ iphone, }) => {
           <p className="flex items-center justify-center">Rating : {rating}</p>
         </div>
       </button>
-      <div className="flex justify-between items-center text-xs">
+      <div className="flex justify-center items-center text-xs">
         <button onClick={goPayment} className="bg-[#F27F20] mt-2 text-white px-4 py-2 rounded-md hover:bg-emerald-400 active:scale-95 transition-all">Buy Now</button>
-        <button onClick={addToCart} className="bg- mt-2 border border-black hover:border-transparent px-4 py-2 rounded-md hover:bg-emerald-400 active:scale-95 transition-all">Add To Cart</button>
       </div>
     </div>
   )
 }
 
-export default Phone
+export default AddedPhone
