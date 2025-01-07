@@ -2,6 +2,7 @@ import { useState } from "react"
 import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import RecentViewed from "./RecentViewed";
+import imgDefault from "../../../public/assets/iPhone-11-Pro-Used.webp"
 const PhoneDetails = () => {
     const [number, setNumber] = useState(1);
     const increment = () => {
@@ -36,7 +37,8 @@ const PhoneDetails = () => {
 
                     <div className="rounded-xl overflow-hidden grid gap-5 md:justify-start justify-center ">
                         <div className="overflow-hidden rounded-xl border">
-                            <img className="w-96   hover:scale-125 transition-all" src={img[0]} alt="" />
+                            {/* <img className="w-96   hover:scale-125 transition-all" src={img[0]} alt="" /> */}
+                            <img className="w-96   hover:scale-125 transition-all" src={imgDefault} alt="" />
                         </div>
                         <div className="flex gap-2 justify-center flex-wrap w-96 items-center">
                             {img.map((url, index) => (
@@ -51,7 +53,7 @@ const PhoneDetails = () => {
                         <h1 className="text-xl font-semibold -mt-5">{model}</h1>
 
                         <div className="flex gap-3 flex-wrap">
-                            <p className="bg-gray-100 px-3 py-2"> Price: <span className="font-semibold">{price}</span></p>
+                            <p className="bg-gray-100 px-3 py-2"> Price: <span className="font-semibold">${price}</span></p>
                             <p className="bg-gray-100 px-3 py-2">Status: In Stock</p>
                             <p className="bg-gray-100 px-3 py-2">Product Code: {id}</p>
                         </div>

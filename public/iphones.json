@@ -26,7 +26,7 @@
     "battery_info": "3110 mAh, Fast charging 18W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "Water-resistant (IP68), Dual SIM (Nano-SIM and eSIM)",
-    "price": "$699",
+    "price": 699,
     "rating": 4.5,
     "release_date": "2019-09-20",
     "img": [
@@ -64,7 +64,7 @@
     "battery_info": "3046 mAh, Fast charging 18W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "IP68 water and dust resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$999",
+    "price": 999,
     "rating": 4.6,
     "release_date": "2019-09-20",
     "img": [
@@ -103,7 +103,7 @@
     "battery_info": "3969 mAh, Fast charging 18W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "IP68 water and dust resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$1099",
+    "price": 1099,
     "rating": 4.7,
     "release_date": "2019-09-20",
     "img": [
@@ -139,7 +139,7 @@
     "battery_info": "2815 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, Dual SIM (Nano-SIM and eSIM), IP68 water resistant",
-    "price": "$799",
+    "price": 799,
     "rating": 4.6,
     "release_date": "2020-10-23",
     "img": [
@@ -178,7 +178,7 @@
     "battery_info": "2815 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$999",
+    "price": 999,
     "rating": 4.7,
     "release_date": "2020-10-23",
     "img": [
@@ -215,7 +215,7 @@
     "battery_info": "3687 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$1099",
+    "price": 1099,
     "rating": 4.8,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/Gold-5985.jpg",
@@ -251,7 +251,7 @@
     "battery_info": "2227 mAh, Fast charging 15W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$699",
+    "price": 699,
     "rating": 4.5,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/Mini-White-3920.jpg",
@@ -290,7 +290,7 @@
     "battery_info": "3227 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$799",
+    "price": 799,
     "rating": 4.6,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-13-9214.jpg",
@@ -330,7 +330,7 @@
     "battery_info": "3095 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$999",
+    "price": 999,
     "rating": 4.7,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/3412-49256.jpg",
@@ -369,7 +369,7 @@
     "battery_info": "4352 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$1099",
+    "price": 1099,
     "rating": 4.9,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/3413-64537.jpg",
@@ -405,7 +405,7 @@
     "battery_info": "2438 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistance, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$699",
+    "price": 699,
     "rating": 4.8,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/mini-Red-2796.jpg",
@@ -441,7 +441,7 @@
     "battery_info": "3279 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$799",
+    "price": 799,
     "rating": 4.8,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Blue-7810.jpg",
@@ -481,7 +481,7 @@
     "battery_info": "3200 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$999",
+    "price": 999,
     "rating": 4.7,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Gold-7135.jpg",
@@ -519,7 +519,7 @@
     "battery_info": "4323 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$1099",
+    "price": 1099,
     "rating": 4.8,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Silver-1035.jpg",
@@ -555,7 +555,7 @@
     "battery_info": "2520 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistance, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$749",
+    "price": 749,
     "rating": 4.7,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/3413-94883.jpg",
@@ -591,7 +591,7 @@
     "battery_info": "3279 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$799",
+    "price": 799,
     "rating": 4.7,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(4)-7443.jpg",
@@ -630,7 +630,7 @@
     "battery_info": "3200 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$1099",
+    "price": 1099,
     "rating": 4.8,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(5)-1544.jpg",
@@ -668,7 +668,7 @@
     "battery_info": "4323 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$1199",
+    "price": 1199,
     "rating": 4.9,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(5)-1544.jpg",
@@ -705,7 +705,7 @@
     "battery_info": "3279 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$849",
+    "price": 849,
     "rating": 4.7,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Plus---16-Black-9711.jpg",
@@ -744,7 +744,7 @@
     "battery_info": "3200 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$1099",
+    "price": 1099,
     "rating": 4.8,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg",
@@ -782,7 +782,7 @@
     "battery_info": "4323 mAh, Fast charging 20W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "5G support, IP68 water resistant, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$1199",
+    "price": 1199,
     "rating": 4.9,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Desert-Titanium-1929.jpg",
@@ -819,7 +819,7 @@
     "battery_info": "4000 mAh, Fast charging 30W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
     "other_features": "6G support, IP68 water resistance, Dual SIM (Nano-SIM and eSIM)",
-    "price": "$999",
+    "price": 999,
     "rating": 5,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg",
@@ -856,7 +856,7 @@
     "battery_info": "4500 mAh, Fast charging 35W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer, ultra-wideband (UWB)",
     "other_features": "6G support, IP68 water resistance, Dual SIM (Nano-SIM and eSIM), USB-C port",
-    "price": "$1199",
+    "price": 1199,
     "rating": 5,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-White-Titanium-5148.jpg",
@@ -894,7 +894,7 @@
     "battery_info": "5000 mAh, Fast charging 35W",
     "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer, ultra-wideband (UWB)",
     "other_features": "6G support, IP68 water resistance, Dual SIM (Nano-SIM and eSIM), Titanium body, USB-C port",
-    "price": "$1399",
+    "price": 1399,
     "rating": 5,
     "img": [
       "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-16-Pro-Max---16-Pro-Natural-Titanium-3560.jpg",

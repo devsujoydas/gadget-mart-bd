@@ -15,7 +15,6 @@ const RecentViewed = ({iphone}) => {
                 <h1 className="text-2xl font-bold mb-4 text-center">Recently Viewed</h1>
                 <hr className="mx-2" />
                 <div className="my-5 mx-2">
-
                     <div className="flex items-center border hover:shadow-lg rounded-md p-1 overflow-hidden transition-all">
                         <img className="md:w-36 w-28" src={img[0]} alt="" />
                         <div className="flex flex-col gap-1">

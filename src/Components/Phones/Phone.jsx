@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-
+import imgDefault from "../../../public/assets/iPhone-11-Pro-Used.webp"
 import { useNavigate } from "react-router-dom";
 
 const Phone = ({ iphone, }) => {
@@ -18,14 +19,15 @@ const Phone = ({ iphone, }) => {
 
       <button onClick={navigateHandler}>
         <div className="overflow-hidden">
-          <img className="w-full hover:scale-125 transition-all" src={img[0]} alt="" />
+          {/* <img className="w-full hover:scale-125 transition-all" src={img[0]} alt="" /> */}
+          <img className="w-full hover:scale-125 transition-all" src={imgDefault} alt="" />
         </div>
         <div className="text-left">
           <h1 className="text-gray-400">{brand}</h1>
           <h1 className="font-semibold text-xl my-2">{model}</h1>
         </div>
         <div className="flex justify-between items-center">
-          <h1 className="font-semibold hover:text-[#F27F20] transition-all">{price}</h1>
+          <h1 className="font-semibold hover:text-[#F27F20] transition-all">${price}</h1>
           <p className="flex items-center justify-center">Rating : {rating}</p>
         </div>
       </button>
