@@ -72,14 +72,14 @@ const SignIn = () => {
                     </div>
 
                     <div className="mt-6 flex flex-col gap-2 justify-between">
-                        <button type="submit" className="border bg-white text-black font-semibold py-1 rounded-md" > Sign in </button>
+                        <button type="submit" className="border bg-white text-black font-semibold py-1 rounded-md active:scale-95 transition-all" > Sign in </button>
                         <a className="text-center text-sm cursor-pointer transition-all text-gray-200 font-semibold hover:underline"> Forgot your password? </a>
                     </div>
 
                     <div className="mt-6 flex flex-col gap-3 justify-between">
-                        <button type="submit" className="border border-gray-600 hover:border-gray-500 transition-all bg-[#040E19] text-white py-1 rounded-md" > Sign in with Google </button>
+                        <button type="submit" className="border border-gray-600 hover:border-gray-500 bg-[#040E19] text-white py-1 rounded-md active:scale-95 transition-all" > Sign in with Google </button>
 
-                        <button type="submit" className="border border-gray-600 hover:border-gray-500 transition-all bg-[#040E19] text-white py-1 rounded-md"  > Sign in with Facebook</button>
+                        <button type="submit" className="border border-gray-600 hover:border-gray-500  bg-[#040E19] text-white py-1 rounded-md active:scale-95 transition-all"  > Sign in with Facebook</button>
                     </div>
 
                 </form>
