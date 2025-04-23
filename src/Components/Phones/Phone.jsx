@@ -1,10 +1,10 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
-import imgDefault from "../../../public/assets/iPhone-11-Pro-Used.webp"
+
 import { useNavigate } from "react-router-dom";
 import { saveItemInLS } from "../utility/Local";
 
+// eslint-disable-next-line react/prop-types
 const Phone = ({ iphone, }) => {
+  // eslint-disable-next-line react/prop-types
   const { id, brand, model, price, img, rating } = iphone;
   const navigate = useNavigate()
 
@@ -25,7 +25,6 @@ const Phone = ({ iphone, }) => {
       <button onClick={navigateHandler}>
         <div className="overflow-hidden">
           <img className="w-full hover:scale-125 transition-all" src={img[0]} alt="" />
-          {/* <img className="w-full hover:scale-125 transition-all" src={imgDefault} alt="" /> */}
         </div>
         <div className="text-left">
           <h1 className="text-gray-400">{brand}</h1>

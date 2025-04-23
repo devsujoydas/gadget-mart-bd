@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
-// import imgDefault from "../../../public/assets/iPhone-11-Pro-Used.webp"
+
 import { useState } from "react";
+// eslint-disable-next-line react/prop-types
 const YourOrder = ({ img, model, price, storage_options }) => {
 
     const [number, setNumber] = useState(1);

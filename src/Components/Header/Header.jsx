@@ -4,7 +4,7 @@ import './Header.css'
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
-import navlogo from '../../../public/assets/navlogo.png'
+import navlogo from '/assets/navlogo.png'
 
 const Header = ({ setToggle }) => {
   const navStyle = "hover:text-emerald-600 px-2 py-1 rounded-lg  hover:font-semibold active:scale-95 transition-all";
